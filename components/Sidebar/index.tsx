@@ -1,6 +1,6 @@
 import { BsHouseFill, BsBellFill } from 'react-icons/bs'
 import { FaUser } from 'react-icons/fa'
-import { Sidebarlogo } from './SidebarLogo';
+import { TwitterLogo } from './TwitterLogo';
 import { SidebarItem } from './SidebarItem';
 import { BiLogOut } from 'react-icons/bi'
 import { SidebarTweetButton } from './SidebarTweetButton';
@@ -28,7 +28,7 @@ export const Sidebar = () => {
         <div className='col-span-1 h-full pr-4 md:pr-6'>
             <div className='flex flex-col items-end'>
                 <div className='space-y-2 lg:w-[230px]'>
-                    <Sidebarlogo />
+                    <TwitterLogo />
                     {items.map(item => (
                         <SidebarItem 
                         key={item.href}
