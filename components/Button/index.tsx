@@ -28,6 +28,6 @@ export const Button = ({
         `}>
             {label}
         </button>
-     );
+     )
 }
  

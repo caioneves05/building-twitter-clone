@@ -1,13 +1,13 @@
 "use client"
 
-import { useRouter } from "next/navigation";
+import { useRouter } from "next/navigation"
 import { BsTwitter } from 'react-icons/bs'
 
 
 
 export const TwitterLogo = () => {
 
-    const router = useRouter();
+    const router = useRouter()
 
     return ( 
         <div 
@@ -15,6 +15,6 @@ export const TwitterLogo = () => {
         className="rounded-full h-14 w-14 p-4 flex items-center justify-center hover:bg-blu-300 hover:bg-opacity-10 cursor-pointer transition" >
             <BsTwitter size={28} color="white"/>
         </div>
-     );
+     )
 }
  

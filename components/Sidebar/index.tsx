@@ -1,9 +1,9 @@
 import { BsHouseFill, BsBellFill } from 'react-icons/bs'
 import { FaUser } from 'react-icons/fa'
-import { TwitterLogo } from './TwitterLogo';
-import { SidebarItem } from './SidebarItem';
+import { TwitterLogo } from './TwitterLogo'
+import { SidebarItem } from './SidebarItem'
 import { BiLogOut } from 'react-icons/bi'
-import { SidebarTweetButton } from './SidebarTweetButton';
+import { SidebarTweetButton } from './SidebarTweetButton'
 
 
 export const Sidebar = () => {
@@ -46,5 +46,5 @@ export const Sidebar = () => {
                 </div>
             </div>
         </div>
-     );
+     )
 }

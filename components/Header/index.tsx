@@ -1,13 +1,13 @@
 "use client"
 
-import { useRouter } from "next/navigation";
-import { useCallback } from "react";
+import { useRouter } from "next/navigation"
+import { useCallback } from "react"
 
 import { BiArrowBack } from 'react-icons/bi'
 
 interface IHeader {
     label: string
-    showBackArrow?: boolean;
+    showBackArrow?: boolean
 }
 
 export const Header = ({ label, showBackArrow }: IHeader) => {
@@ -28,6 +28,6 @@ export const Header = ({ label, showBackArrow }: IHeader) => {
                 <h1 className="text-white text-xl font-semibold">{label}</h1>
             </div>
         </div>
-     );
+     )
 }
  

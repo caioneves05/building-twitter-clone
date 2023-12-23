@@ -1,10 +1,10 @@
-import { IconType } from "react-icons";
+import { IconType } from "react-icons"
 
 interface SidebarItemProps {
-    label: string;
-    href?: string;
-    icon: IconType;
-    onClick?: () => void;
+    label: string
+    href?: string
+    icon: IconType
+    onClick?: () => void
 }
 
 export const SidebarItem = ({ icon: Icon, label, href, onClick }: SidebarItemProps) => {
@@ -21,5 +21,5 @@ export const SidebarItem = ({ icon: Icon, label, href, onClick }: SidebarItemPro
                 </p>
             </div>
         </div>
-     );
+     )
 }
